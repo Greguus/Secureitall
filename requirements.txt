@@ -1,0 +1,4 @@
+Django==5.0.1
+psycopg==3.1.17
+mod-wsgi==5.0.0
+apache-libcloud==3.8.0

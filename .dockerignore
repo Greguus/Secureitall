@@ -1,0 +1,9 @@
+.git
+/venv
+/secureitall/__pycache__
+Dockerfile
+commands.txt
+db.sqlite3
+docker-compose.yml
+.dockerignore
+.vscode
