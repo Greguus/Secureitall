@@ -1,5 +1,5 @@
 # Use an official Python runtime as a parent image
-FROM python:3.12.1-slim-bookworm
+FROM python:3.11.7-slim-bookworm
 
 # Set environment variables
 ENV PYTHONUNBUFFERED 1
@@ -26,8 +26,8 @@ RUN a2enmod rewrite
 RUN a2enmod wsgi
 
 # Create a virtual host configuration for Apache
-COPY apache/scanner.conf /etc/apache2/sites-available/
-RUN a2ensite scanner
+COPY apache/secureitall.conf /etc/apache2/sites-available/
+RUN a2ensite secureitall
 
 # Expose port 80 for Apache
 EXPOSE 80

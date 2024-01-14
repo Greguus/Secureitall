@@ -81,8 +81,8 @@ DATABASES = {
         'NAME': 'secureitall',
         'USER': 'django',
         'PASSWORD': 'django',
-        'HOST': 'localhost', #set to localhost when running locally, not in a docker
-        #'HOST': 'db', #db service from docker compose
+        #'HOST': 'localhost', #set to localhost when running locally, not in a docker
+        'HOST': 'db2', #db service from docker compose
         'PORT': '5432',
         
     }
